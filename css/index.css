@@ -123,3 +123,36 @@ h3{
     right: -215px;
     border: 1px solid #FE5E35;
 }
+
+@media screen and (max-width:650px){
+    
+    nav{
+        display: none;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    .intro-section{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 320px;
+    }
+
+    .left-section h1{
+        font-size: 20px;      
+    }
+    
+    .headphone-div{
+        display: none;
+    }
+
+    .action-btn{
+        width: 120px;
+    }
+
+    .text{
+        width: 250px;
+    }
+}
