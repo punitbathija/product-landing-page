@@ -124,35 +124,64 @@ h3{
     border: 1px solid #FE5E35;
 }
 
+
 @media screen and (max-width:650px){
-    
-    nav{
+    body{
+        margin: 0;
+    }
+
+    .nav-item{
         display: none;
     }
 
-    h3{
-        font-size: 20px;
+    .right-section{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -300px;
+        left: 100px;
+    }
+    img[src="./images/discount.svg"]{
+        position: relative;
+        left: 200px;
+        width: 100px;
+        top: -500px;
     }
 
+    .discount-content{
+        position: relative;
+        left: 160px;
+        top: -180px;
+    }
+
+    .discount-content h4{
+        font-size: 13px;
+    }
+    .discount-content h1{
+        font-size: 13px;
+    }
     .intro-section{
         display: flex;
-        flex-wrap: wrap;
-        max-width: 320px;
+        flex-direction: column;
+    }
+
+    img[src="./images/headphones.jpg"]{
+        position: relative;
+        left: 200px;
+        width: 200px;
+    }
+
+    .left-section{
+        display: flex;
+        flex-direction: column;
     }
 
     .left-section h1{
-        font-size: 20px;      
-    }
-    
-    .headphone-div{
-        display: none;
-    }
-
-    .action-btn{
-        width: 120px;
+        font-size: 45px;
     }
 
     .text{
-        width: 250px;
+        width: 200px;
     }
 }
+
