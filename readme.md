@@ -3,7 +3,7 @@
 ---
 
 - This project is a part of the Full Stack Javascript Web Developer Bootcamp by iNeuron.
-- This is a Product landing Page of a E-Commerce Website.
+- This is a Product landing Page of an E-Commerce Website.
 - They will help you purchase the right sort of earphones/headphones at the right price
 - Technologies used to design this page
 
